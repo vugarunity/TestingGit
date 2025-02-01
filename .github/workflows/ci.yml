@@ -1,0 +1,33 @@
+name: CI fot Tests of Github
+
+on:
+  push:
+    branches:
+      - Test-Report
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Cache Maven dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.m2
+          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
+          restore-keys: |
+            ${{ runner.os }}-maven-
+
+      - name: Run tests
+        run: mvn test
+        env:
+          GITHUB_API_KEY: ${{ secrets.GITHUB_API_KEY }}
