@@ -80,22 +80,7 @@
     "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.DeleteRepositoryTest.shouldDeleteRepositorySuccessfully">
-    <configuration name="CreateRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RepoAutomator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CreateRepositoryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ReadUserProfileTest">
     <configuration name="CreateRepositoryTest.shouldCreateRepoSuccessfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RepoAutomator" />
       <extension name="coverage">
@@ -143,6 +128,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReadUserProfileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RepoAutomator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ReadUserProfileTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UpdateRepositoryTest.shouldUpdateRepoSuccessfully (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RepoAutomator" />
       <extension name="coverage">
@@ -161,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReadUserProfileTest" />
         <item itemvalue="JUnit.DeleteRepositoryTest.shouldDeleteRepositorySuccessfully" />
         <item itemvalue="JUnit.UpdateRepositoryTest.shouldUpdateRepoSuccessfully (1)" />
         <item itemvalue="JUnit.CreateRepositoryTest.shouldCreateRepoSuccessfully" />
         <item itemvalue="JUnit.DeleteRepositoryTest" />
-        <item itemvalue="JUnit.CreateRepositoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -178,6 +178,15 @@
       <option name="presentableId" value="Default" />
       <updated>1738324913779</updated>
     </task>
+    <task id="LOCAL-00001" summary="добавлены изменения">
+      <option name="closed" value="true" />
+      <created>1738406601539</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738406601539</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,6 +211,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="добавлены изменения" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлены изменения" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TestingGit$CreateRepositoryTest.ic" NAME="CreateRepositoryTest Coverage Results" MODIFIED="1738326096553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
