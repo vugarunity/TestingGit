@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ad6eb47-fe8d-4baa-9b4d-6baff2fa1341" name="Changes" comment="добавлены изменения">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,16 +51,18 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Config.executor": "Run",
-    "JUnit.CreateRepositoryTest.executor": "Coverage",
+    "JUnit.CreateRepositoryTest.executor": "Run",
     "JUnit.CreateRepositoryTest.shouldCreateRepoSuccessfully.executor": "Run",
     "JUnit.CreateRepositoryTest.shouldFailToCreateRepoWithInvalidData.executor": "Run",
     "JUnit.CreateRepositoryTest.shouldReturn422WhenCreatingRepoWithExistingName.executor": "Run",
+    "JUnit.DeleteRepositoryTest.executor": "Run",
     "JUnit.DeleteRepositoryTest.shouldDeleteRepositorySuccessfully.executor": "Run",
     "JUnit.ReadUserProfileTest.executor": "Run",
     "JUnit.ReadUserProfileTest.shouldFailToReadRepoWithInvalidData.executor": "Run",
     "JUnit.ReadUserProfileTest.shouldReadRepoSuccessfully.executor": "Run",
     "JUnit.UpdateRepositoryTest.executor": "Run",
     "JUnit.UpdateRepositoryTest.shouldFailToUpdateRepoWithInvalidData.executor": "Run",
+    "JUnit.UpdateRepositoryTest.shouldUpdateRepoSuccessfully (1).executor": "Run",
     "JUnit.UpdateRepositoryTest.shouldUpdateRepoSuccessfully.executor": "Run",
     "Maven.RepoAutomator [clean].executor": "Run",
     "Maven.RepoAutomator [io.qameta.allure:allure-maven:2.12.0:serve].executor": "Run",
@@ -78,9 +79,24 @@
     "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ReadUserProfileTest">
+  <component name="RunManager" selected="JUnit.UpdateRepositoryTest.shouldUpdateRepoSuccessfully (1)">
+    <configuration name="CreateRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RepoAutomator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CreateRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CreateRepositoryTest.shouldCreateRepoSuccessfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestingGit" />
+      <module name="RepoAutomator" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -95,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteRepositoryTest.shouldDeleteRepositorySuccessfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestingGit" />
+    <configuration name="DeleteRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RepoAutomator" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -105,8 +121,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.DeleteRepositoryTest" />
-      <option name="METHOD_NAME" value="shouldDeleteRepositorySuccessfully" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,24 +141,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadUserProfileTest.shouldReadRepoSuccessfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestingGit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ReadUserProfileTest" />
-      <option name="METHOD_NAME" value="shouldReadRepoSuccessfully" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UpdateRepositoryTest.shouldUpdateRepoSuccessfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestingGit" />
+    <configuration name="UpdateRepositoryTest.shouldUpdateRepoSuccessfully (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RepoAutomator" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -160,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ReadUserProfileTest" />
-        <item itemvalue="JUnit.ReadUserProfileTest.shouldReadRepoSuccessfully" />
-        <item itemvalue="JUnit.DeleteRepositoryTest.shouldDeleteRepositorySuccessfully" />
-        <item itemvalue="JUnit.UpdateRepositoryTest.shouldUpdateRepoSuccessfully" />
+        <item itemvalue="JUnit.UpdateRepositoryTest.shouldUpdateRepoSuccessfully (1)" />
         <item itemvalue="JUnit.CreateRepositoryTest.shouldCreateRepoSuccessfully" />
+        <item itemvalue="JUnit.DeleteRepositoryTest" />
+        <item itemvalue="JUnit.CreateRepositoryTest" />
+        <item itemvalue="JUnit.ReadUserProfileTest" />
       </list>
     </recent_temporary>
   </component>

@@ -3,7 +3,7 @@ name: CI fot Tests of Github
 on:
   push:
     branches:
-      - Test-Report
+      - gtest
 
 jobs:
   test:
