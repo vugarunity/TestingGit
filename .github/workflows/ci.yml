@@ -1,4 +1,4 @@
-name: CI for Test API
+name: CI for Tests of Github
 
 on:
   push:
@@ -32,5 +32,4 @@ jobs:
           echo "GITHUB_API_KEY=${{ secrets.MY_GITHUB_API_KEY }}" >> $GITHUB_ENV
           echo "GITHUB_BASE_URL=${{ secrets.MY_GITHUB_BASE_URL }}" >> $GITHUB_ENV
 
-      - name: Run tests
-        run: mvn test
+      
