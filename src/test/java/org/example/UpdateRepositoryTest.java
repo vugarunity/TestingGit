@@ -1,14 +1,24 @@
 package org.example;
 
+import io.qameta.allure.*;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
+@Epic("Тестирование проекта GitHub")
+@Feature("Тестирование GitHub API для репозиториев")
 public class UpdateRepositoryTest extends GithubAbstractTest {
 
     @Test
+    @DisplayName("Тест shouldUpdateRepoSuccessfully - успешное обновление репозитория")
+    @Description("Данный тест предназначен для обновления репозитория")
+    @Link("https://api.github.com/repos/vugarunity/vnbs")
+    @Severity(SeverityLevel.NORMAL)
+    @Story("Успешное обновление репозитория")
+    @Owner("Ализаде Вугар")
     void shouldUpdateRepoSuccessfully() {
 
         // Тело запроса для создания репозитория
@@ -37,6 +47,12 @@ public class UpdateRepositoryTest extends GithubAbstractTest {
     }
 
     @Test
+    @DisplayName("Тест shouldFailToUpdateRepoWithInvalidData - неудачное обновление репозитория")
+    @Description("Тест проверяет обработку ошибки при обновлении репозитория с некорректными данными")
+    @Link("https://api.github.com/repos/vugarunity/vnbs")
+    @Severity(SeverityLevel.NORMAL)
+    @Story("Ошибка при обновлении репозитория")
+    @Owner("Ализаде Вугар")
     void shouldFailToUpdateRepoWithInvalidData() {
 
         String requestBody = """

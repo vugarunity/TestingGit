@@ -1,6 +1,8 @@
 package org.example;
 
+import io.qameta.allure.*;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
@@ -8,9 +10,17 @@ import java.util.List;
 import static io.restassured.RestAssured.given;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
+@Epic("Тестирование проекта GitHub")
+@Feature("Тестирование GitHub API для репозиториев")
 public class CreateRepositoryTest extends GithubAbstractTest{
 
     @Test
+    @DisplayName("Тест shouldCreateRepoSuccessfully - успешное создания репозитория")
+    @Description("Данный тест преднозначен для создания репозитория")
+    @Link("https://api.github.com/user/repos")
+    @Severity(SeverityLevel.NORMAL)
+    @Story("Получение нового репозитория")
+    @Owner("Ализаде Вугар")
     void shouldCreateRepoSuccessfully () {
 
         // Тело запроса для создания репозитория
@@ -39,6 +49,12 @@ public class CreateRepositoryTest extends GithubAbstractTest{
     }
 
     @Test
+    @DisplayName("Тест shouldReturn422WhenCreatingRepoWithExistingName - неуспешное создания репозитория")
+    @Description("Тест проверяет, что нельзя создать репозиторий с уже существующим именем")
+    @Link("https://api.github.com/user/repos")
+    @Severity(SeverityLevel.NORMAL)
+    @Story("Ошибка при повторном создании репозитория")
+    @Owner("Ализаде Вугар")
     void shouldReturn422WhenCreatingRepoWithExistingName() {
         String requestBody = """
                 {
@@ -66,6 +82,12 @@ public class CreateRepositoryTest extends GithubAbstractTest{
     }
 
     @Test
+    @DisplayName("Тест shouldFailToCreateRepoWithInvalidData - неудачное создание репозитория")
+    @Description("Тест проверяет обработку ошибки при создании репозитория с некорректными данными")
+    @Link("https://api.github.com/user/repos")
+    @Severity(SeverityLevel.NORMAL)
+    @Story("Ошибка при создании репозитория")
+    @Owner("Ализаде Вугар")
     void shouldFailToCreateRepoWithInvalidData() {
         String requestBody = """
                 {
@@ -90,3 +112,4 @@ public class CreateRepositoryTest extends GithubAbstractTest{
         assertThat(errorMessage).isEqualTo("Not Found");
     }
 }
+

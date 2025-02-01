@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ad6eb47-fe8d-4baa-9b4d-6baff2fa1341" name="Changes" comment="" />
+    <list default="true" id="5ad6eb47-fe8d-4baa-9b4d-6baff2fa1341" name="Changes" comment="добавлены изменения">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CreateRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CreateRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ReadUserProfileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ReadUserProfileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/UpdateRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/UpdateRepositoryTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +71,8 @@
     "Maven.RepoAutomator [io.qameta.allure:allure-maven:2.12.0:serve].executor": "Run",
     "Maven.RepoAutomator [test].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "gtest",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/vugar/Desktop/TestingGit",
     "onboarding.tips.debug.path": "/Users/vugar/Desktop/TestingGit/src/main/java/org/example/Main.java",
@@ -74,7 +82,7 @@
     "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ReadUserProfileTest.shouldReadRepoSuccessfully">
+  <component name="RunManager" selected="JUnit.ReadUserProfileTest">
     <configuration name="CreateRepositoryTest.shouldCreateRepoSuccessfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestingGit" />
       <extension name="coverage">
@@ -86,22 +94,6 @@
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.CreateRepositoryTest" />
       <option name="METHOD_NAME" value="shouldCreateRepoSuccessfully" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreateRepositoryTest.shouldFailToCreateRepoWithInvalidData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestingGit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CreateRepositoryTest" />
-      <option name="METHOD_NAME" value="shouldFailToCreateRepoWithInvalidData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,6 +111,21 @@
       <option name="MAIN_CLASS_NAME" value="org.example.DeleteRepositoryTest" />
       <option name="METHOD_NAME" value="shouldDeleteRepositorySuccessfully" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadUserProfileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RepoAutomator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ReadUserProfileTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -157,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReadUserProfileTest" />
         <item itemvalue="JUnit.ReadUserProfileTest.shouldReadRepoSuccessfully" />
         <item itemvalue="JUnit.DeleteRepositoryTest.shouldDeleteRepositorySuccessfully" />
         <item itemvalue="JUnit.UpdateRepositoryTest.shouldUpdateRepoSuccessfully" />
         <item itemvalue="JUnit.CreateRepositoryTest.shouldCreateRepoSuccessfully" />
-        <item itemvalue="JUnit.CreateRepositoryTest.shouldFailToCreateRepoWithInvalidData" />
       </list>
     </recent_temporary>
   </component>
