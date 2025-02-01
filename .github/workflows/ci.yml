@@ -1,4 +1,4 @@
-name: CI fot Tests of Github
+name: CI for Tests of Github
 
 on:
   push:
@@ -26,6 +26,9 @@ jobs:
           key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
           restore-keys: |
             ${{ runner.os }}-maven-
+
+      - name: Check GITHUB_API_KEY
+        run: echo $GITHUB_API_KEY
 
       - name: Run tests
         run: mvn test

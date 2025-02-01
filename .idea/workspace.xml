@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ad6eb47-fe8d-4baa-9b4d-6baff2fa1341" name="Changes" comment="добавлены изменения">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +80,7 @@
     "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.UpdateRepositoryTest.shouldUpdateRepoSuccessfully (1)">
+  <component name="RunManager" selected="JUnit.DeleteRepositoryTest.shouldDeleteRepositorySuccessfully">
     <configuration name="CreateRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RepoAutomator" />
       <extension name="coverage">
@@ -126,7 +127,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadUserProfileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DeleteRepositoryTest.shouldDeleteRepositorySuccessfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RepoAutomator" />
       <extension name="coverage">
         <pattern>
@@ -135,8 +136,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ReadUserProfileTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="org.example.DeleteRepositoryTest" />
+      <option name="METHOD_NAME" value="shouldDeleteRepositorySuccessfully" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DeleteRepositoryTest.shouldDeleteRepositorySuccessfully" />
         <item itemvalue="JUnit.UpdateRepositoryTest.shouldUpdateRepoSuccessfully (1)" />
         <item itemvalue="JUnit.CreateRepositoryTest.shouldCreateRepoSuccessfully" />
         <item itemvalue="JUnit.DeleteRepositoryTest" />
         <item itemvalue="JUnit.CreateRepositoryTest" />
-        <item itemvalue="JUnit.ReadUserProfileTest" />
       </list>
     </recent_temporary>
   </component>
