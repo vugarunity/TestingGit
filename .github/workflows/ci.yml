@@ -27,12 +27,10 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-maven-
 
-      - name: Create .env file
+      - name: Set up environment variables
         run: |
-          echo "GITHUB_API_KEY=${{ secrets.MY_GITHUB_API_KEY }}" > .env
-          echo "GITHUB_BASE_URL=${{ secrets.MY_GITHUB_BASE_URL }}" >> .env
+          echo "GITHUB_API_KEY=${{ secrets.MY_GITHUB_API_KEY }}" >> $GITHUB_ENV
+          echo "GITHUB_BASE_URL=${{ secrets.MY_GITHUB_BASE_URL }}" >> $GITHUB_ENV
 
       - name: Run tests
         run: mvn test
-        env:
-          GITHUB_API_KEY: ${{ secrets.MY_GITHUB_API_KEY }}

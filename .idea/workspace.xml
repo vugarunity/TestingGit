@@ -79,7 +79,7 @@
     "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ReadUserProfileTest.shouldReadRepoSuccessfully">
+  <component name="RunManager" selected="JUnit.UpdateRepositoryTest.shouldUpdateRepoSuccessfully (1)">
     <configuration name="CreateRepositoryTest.shouldCreateRepoSuccessfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RepoAutomator" />
       <extension name="coverage">
@@ -161,10 +161,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UpdateRepositoryTest.shouldUpdateRepoSuccessfully (1)" />
         <item itemvalue="JUnit.ReadUserProfileTest.shouldReadRepoSuccessfully" />
         <item itemvalue="JUnit.ReadUserProfileTest" />
         <item itemvalue="JUnit.DeleteRepositoryTest.shouldDeleteRepositorySuccessfully" />
-        <item itemvalue="JUnit.UpdateRepositoryTest.shouldUpdateRepoSuccessfully (1)" />
         <item itemvalue="JUnit.CreateRepositoryTest.shouldCreateRepoSuccessfully" />
       </list>
     </recent_temporary>
