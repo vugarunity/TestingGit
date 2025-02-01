@@ -28,7 +28,7 @@ jobs:
             ${{ runner.os }}-maven-
 
       - name: Check GITHUB_API_KEY
-        run: echo $GITHUB_API_KEY
+        run: echo $GITHUB_API_KEY  # Выводим значение переменной окружения для проверки
 
       - name: Run tests
         run: mvn test
