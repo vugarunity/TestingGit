@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ad6eb47-fe8d-4baa-9b4d-6baff2fa1341" name="Changes" comment="добавлены изменения" />
+    <list default="true" id="5ad6eb47-fe8d-4baa-9b4d-6baff2fa1341" name="Changes" comment="добавлены изменения">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,39 +49,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Config.executor": "Run",
-    "JUnit.CreateRepositoryTest.executor": "Run",
-    "JUnit.CreateRepositoryTest.shouldCreateRepoSuccessfully.executor": "Run",
-    "JUnit.CreateRepositoryTest.shouldFailToCreateRepoWithInvalidData.executor": "Run",
-    "JUnit.CreateRepositoryTest.shouldReturn422WhenCreatingRepoWithExistingName.executor": "Run",
-    "JUnit.DeleteRepositoryTest.executor": "Run",
-    "JUnit.DeleteRepositoryTest.shouldDeleteRepositorySuccessfully.executor": "Run",
-    "JUnit.ReadUserProfileTest.executor": "Run",
-    "JUnit.ReadUserProfileTest.shouldFailToReadRepoWithInvalidData.executor": "Run",
-    "JUnit.ReadUserProfileTest.shouldReadRepoSuccessfully.executor": "Run",
-    "JUnit.UpdateRepositoryTest.executor": "Run",
-    "JUnit.UpdateRepositoryTest.shouldFailToUpdateRepoWithInvalidData.executor": "Run",
-    "JUnit.UpdateRepositoryTest.shouldUpdateRepoSuccessfully (1).executor": "Run",
-    "JUnit.UpdateRepositoryTest.shouldUpdateRepoSuccessfully.executor": "Run",
-    "Maven.RepoAutomator [clean].executor": "Run",
-    "Maven.RepoAutomator [io.qameta.allure:allure-maven:2.12.0:serve].executor": "Run",
-    "Maven.RepoAutomator [test].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "gtest",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/vugar/Desktop/TestingGit",
-    "onboarding.tips.debug.path": "/Users/vugar/Desktop/TestingGit/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.36890525",
-    "settings.editor.selected.configurable": "settings.sync"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Config.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateRepositoryTest.shouldCreateRepoSuccessfully.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateRepositoryTest.shouldFailToCreateRepoWithInvalidData.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateRepositoryTest.shouldReturn422WhenCreatingRepoWithExistingName.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DeleteRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DeleteRepositoryTest.shouldDeleteRepositorySuccessfully.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReadUserProfileTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReadUserProfileTest.shouldFailToReadRepoWithInvalidData.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReadUserProfileTest.shouldReadRepoSuccessfully.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UpdateRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UpdateRepositoryTest.shouldFailToUpdateRepoWithInvalidData.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UpdateRepositoryTest.shouldUpdateRepoSuccessfully (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UpdateRepositoryTest.shouldUpdateRepoSuccessfully.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.RepoAutomator [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.RepoAutomator [io.qameta.allure:allure-maven:2.12.0:serve].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.RepoAutomator [test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;gtest&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/vugar/Desktop/Kod for Diplom/TestingGit&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/vugar/Desktop/TestingGit/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.36890525&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.UpdateRepositoryTest.shouldUpdateRepoSuccessfully (1)">
-    <configuration name="CreateRepositoryTest.shouldCreateRepoSuccessfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="JUnit.DeleteRepositoryTest">
+    <configuration name="CreateRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RepoAutomator" />
       <extension name="coverage">
         <pattern>
@@ -88,13 +91,12 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.CreateRepositoryTest" />
-      <option name="METHOD_NAME" value="shouldCreateRepoSuccessfully" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteRepositoryTest.shouldDeleteRepositorySuccessfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DeleteRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RepoAutomator" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +106,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.DeleteRepositoryTest" />
-      <option name="METHOD_NAME" value="shouldDeleteRepositorySuccessfully" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,7 +126,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadUserProfileTest.shouldReadRepoSuccessfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UpdateRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RepoAutomator" />
       <extension name="coverage">
         <pattern>
@@ -134,9 +135,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ReadUserProfileTest" />
-      <option name="METHOD_NAME" value="shouldReadRepoSuccessfully" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="org.example.UpdateRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UpdateRepositoryTest.shouldUpdateRepoSuccessfully (1)" />
-        <item itemvalue="JUnit.ReadUserProfileTest.shouldReadRepoSuccessfully" />
+        <item itemvalue="JUnit.DeleteRepositoryTest" />
+        <item itemvalue="JUnit.UpdateRepositoryTest" />
+        <item itemvalue="JUnit.CreateRepositoryTest" />
         <item itemvalue="JUnit.ReadUserProfileTest" />
-        <item itemvalue="JUnit.DeleteRepositoryTest.shouldDeleteRepositorySuccessfully" />
-        <item itemvalue="JUnit.CreateRepositoryTest.shouldCreateRepoSuccessfully" />
+        <item itemvalue="JUnit.UpdateRepositoryTest.shouldUpdateRepoSuccessfully (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738406601539</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="добавлены изменения">
+      <option name="closed" value="true" />
+      <created>1738449265609</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738449265609</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
