@@ -18,12 +18,12 @@ public class GithubAbstractTest {
         Dotenv dotenv;
         try {
             dotenv = Dotenv.load();
-            apiKey = dotenv.get("GITHUB_API_KEY");
-            baseUrl = dotenv.get("GITHUB_BASE_URL");
+            apiKey = dotenv.get("APIKEY");
+            baseUrl = dotenv.get("BASE_URL");
         } catch (Exception e) {
             System.out.println("Файл .env не найден, используем переменные окружения");
-            apiKey = System.getenv("GITHUB_API_KEY");
-            baseUrl = System.getenv("GITHUB_BASE_URL");
+            apiKey = System.getenv("APIKEY");
+            baseUrl = System.getenv("BASE_URL");
         }
     }
 
