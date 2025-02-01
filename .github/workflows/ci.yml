@@ -1,4 +1,4 @@
-name: CI for Tests of Github
+name: CI for Test API
 
 on:
   push:
