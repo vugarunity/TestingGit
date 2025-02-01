@@ -27,16 +27,12 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-maven-
 
-      - name: Check current directory
-        run: pwd && ls -la
-
       - name: Create .env file
         run: |
-          echo "GITHUB_API_KEY=${{ secrets.GITHUB_API_KEY }}" > $GITHUB_WORKSPACE/.env
-          echo "GITHUB_BASE_URL=${{ secrets.GITHUB_BASE_URL }}" >> $GITHUB_WORKSPACE/.env
-
-      - name: Verify .env file
-        run: cat $GITHUB_WORKSPACE/.env
+          echo "GITHUB_API_KEY=${{ secrets.MY_GITHUB_API_KEY }}" > .env
+          echo "GITHUB_BASE_URL=${{ secrets.MY_GITHUB_BASE_URL }}" >> .env
 
       - name: Run tests
         run: mvn test
+        env:
+          GITHUB_API_KEY: ${{ secrets.MY_GITHUB_API_KEY }}
